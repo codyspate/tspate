@@ -7,10 +7,18 @@
 
 .header {
 	padding: 36px 0;
+	display: flex;
+	justify-content: space-between;
 }
 
-.header span {
-	color: ;
+.logo {
+	height: 8rem;
+	margin: auto 0;
+}
+@media (max-width: 540px) {
+	.logo {
+		display: none;
+	}
 }
 
 .App a {
