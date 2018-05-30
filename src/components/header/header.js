@@ -6,9 +6,9 @@ const Header = ({ className }) => (
 		<div>
 			<h1>Tim Spate</h1>
 			<h2>Full Stack Web Developer</h2>
-			<span>
-				<a href="mailto:contact@tspate.com">contact@tspate.com</a>
-			</span>
+			<a href="mailto:contact@tspate.com?body=%0D%0D%0D%0D%0DSent%20from%20tspate.com" target="_top">
+				contact@tspate.com
+			</a>
 		</div>
 		<img className="logo" alt="Tim Spate Logo" src={Logo} />
 	</div>

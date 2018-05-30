@@ -13,7 +13,7 @@ const data = [
 		company: 'Califonia Department of Technology',
 		url: 'https://caweb.ca.gov',
 		message:
-			'Worked on developing a WordPress implementation of the California state website template. Implmented as a child theme of a popular page-builder type theme for WordPress. Also did research, developmemnt, and testing for server setups to decrease TTR/TTI for the WordPress sites.'
+			'Worked on developing a WordPress implementation of the California state website template. Implemented as a child theme of a popular page-builder type theme for WordPress. Also did research, developmemnt, and testing for server setups to decrease TTR/TTI for the WordPress sites.'
 	},
 	{
 		title: 'Senior Engineer',
