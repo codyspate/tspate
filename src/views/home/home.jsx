@@ -20,7 +20,7 @@ const data = [
 		title: 'Senior Software Engineer',
 		company: 'Erudite Entertainment',
 		message:
-			'Build a event based photo sharing mobile app in React Native for Android and iOS. Interfaced with braintree for transactions. Built a custom image resizing service running on AWS Lambda. Developed the core functionality of the app while training team members to use React Native.'
+			'Built an event based photo sharing mobile app in React Native for Android and iOS. Interfaced with braintree for transactions. Built a custom image resizing service running on AWS Lambda. Developed the core functionality of the app while training team members to use React Native.'
 	}
 ];
 
