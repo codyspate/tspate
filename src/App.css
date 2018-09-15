@@ -1,43 +1,28 @@
-.App {
-	font-family: 'Roboto Slab', serif;
-	max-width: 1100px;
+.contentContainer {
+	font-family: 'Roboto', sans-serif;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: subpixel-antialiased;
+	max-width: 900px;
 	margin: auto;
 	width: 90%;
 }
 
-.header {
-	padding: 36px 0;
-	display: flex;
-	justify-content: space-between;
-}
-
-.logo {
-	height: 8rem;
-	margin: auto 0;
-}
-@media (max-width: 540px) {
-	.logo {
-		display: none;
-	}
-}
-
-.App a {
-	color: #969696;
-	text-decoration: none;
-	transition: all 0.2s ease-in-out;
-}
-
-.App a:hover,
-.App a:active,
-.App a:focus {
-	text-decoration: none;
-	color: #dc7300;
+.contentContainer h1,
+.contentContainer h2,
+.contentContainer h3,
+.contentContainer h4,
+.contentContainer h5,
+.contentContainer h6 {
+	font-family: 'Source Serif Pro', serif;
 }
 
 .body-item h2 {
-	margin-bottom: 0.3rem;
+	font-size: 26px;
+	line-height: 44px;
+	margin-bottom: 0;
 }
 
 .body-item p {
 	margin-bottom: 3.5rem;
+	line-height: 29px;
 }

@@ -1,0 +1,27 @@
+.body h2 {
+	color: #484848;
+	font-size: 26px;
+	line-height: 44px;
+	margin-bottom: 0;
+}
+
+.bodyItem p {
+	margin-bottom: 3.5rem;
+	line-height: 30px;
+}
+
+.body a {
+	color: #4e5a9c;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	line-height: 30px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.body a:hover,
+.body a:active,
+.body a:focus {
+	text-decoration: none;
+	color: #864396;
+}
