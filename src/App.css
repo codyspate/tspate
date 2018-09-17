@@ -1,5 +1,5 @@
 .contentContainer {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: subpixel-antialiased;
 	max-width: 900px;
@@ -13,7 +13,7 @@
 .contentContainer h4,
 .contentContainer h5,
 .contentContainer h6 {
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Merriweather', serif;
 }
 
 .body-item h2 {
