@@ -7,7 +7,7 @@ const data = [
 		company: 'Dermveda',
 		url: 'https://www.dermveda.com',
 		message:
-			'Front end work using mostly React with other popular frontend frameworks (boostrap, postCSS, etc). Worked on the back end with graphql, a custom CMS, some express, running on AWS EC2 and Lambdas. Used a serverless/micro-service architecture approach.'
+			'Front end work using mostly React with other popular frontend frameworks (bootstrap, postCSS, etc). Worked on the back end with graphql, a custom CMS, some express, running on AWS EC2 and Lambdas. Used a serverless/micro-service architecture approach.'
 	},
 	{
 		title: 'Web Developer',
