@@ -1,0 +1,38 @@
+.itemWrapper {
+	margin-bottom: 4rem;
+}
+.buttonWrapper {
+	width: 100%;
+	display: flex;
+	justify-content: flex-end;
+}
+.button {
+	margin-right: 3rem;
+}
+@media screen and (max-width: 540px) {
+	.button {
+		margin-right: 0;
+	}
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.content h4 {
+	font-size: 20px;
+	margin-bottom: 1rem;
+}
+
+.image {
+	height: 100px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: flex-start;
+}
+
+.image img {
+	max-height: 100%;
+}

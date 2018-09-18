@@ -1,1 +1,17 @@
-<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io --><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 350 350" width="350" height="350"><defs><clipPath id="_clipPath_l6kPH1dBKBDU87FjRaIZd21wW2Hlr6TS"><rect width="350" height="350"/></clipPath></defs><g clip-path="url(#_clipPath_l6kPH1dBKBDU87FjRaIZd21wW2Hlr6TS)"><circle vector-effect="non-scaling-stroke" cx="175.00000000000003" cy="175.00000000000003" r="170.00000000000003" fill="rgb(69,78,99)"/><circle vector-effect="non-scaling-stroke" cx="175.00000000000003" cy="175.00000000000003" r="164.5" fill="rgb(99,112,142)"/><path d=" M 338.785 159.571 L 271.758 108.105 L 231 100 L 211 118 L 199 117.234 L 178 100 L 110 107 L 73 105 L 67 136 L 114 175 L 114 225 L 93 234 L 233.034 328.954 C 295.223 305.473 339.5 245.366 339.5 175 C 339.5 169.797 339.258 164.651 338.785 159.571 Z " fill="rgb(79,90,114)"/><g transform="matrix(1,0,0,1,50.5,64)"><text transform="matrix(1,0,0,1,11.8,170.3)" style="font-family:'Source Serif Pro';font-weight:400;font-size:200px;font-style:normal;fill:#ffffff;stroke:none;">TS</text></g></g></svg>
+<?xml version="1.0" standalone="no"?><!-- Generator: Gravit.io -->
+<svg xmlns="http://www.w3.org/2000/svg" 
+	xmlns:xlink="http://www.w3.org/1999/xlink" style="isolation:isolate" viewBox="0 0 350 350" width="350" height="350">
+	<defs>
+		<clipPath id="_clipPath_l6kPH1dBKBDU87FjRaIZd21wW2Hlr6TS">
+			<rect width="350" height="350"/>
+		</clipPath>
+	</defs>
+	<g clip-path="url(#_clipPath_l6kPH1dBKBDU87FjRaIZd21wW2Hlr6TS)">
+		<circle vector-effect="non-scaling-stroke" cx="175.00000000000003" cy="175.00000000000003" r="170.00000000000003" fill="rgb(69,78,99)"/>
+		<circle vector-effect="non-scaling-stroke" cx="175.00000000000003" cy="175.00000000000003" r="164.5" fill="rgb(99,112,142)"/>
+		<path d=" M 338.785 159.571 L 271.758 108.105 L 231 100 L 211 118 L 199 117.234 L 178 100 L 110 107 L 73 105 L 67 136 L 114 175 L 114 225 L 93 234 L 233.034 328.954 C 295.223 305.473 339.5 245.366 339.5 175 C 339.5 169.797 339.258 164.651 338.785 159.571 Z " fill="rgb(79,90,114)"/>
+		<g transform="matrix(1,0,0,1,50.5,64)">
+			<text transform="matrix(1,0,0,1,11.8,170.3)" style="font-family:'Merriweather';font-weight:400;font-size:200px;font-style:normal;fill:#ffffff;stroke:none;">TS</text>
+		</g>
+	</g>
+</svg>

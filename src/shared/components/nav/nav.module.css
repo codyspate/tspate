@@ -25,7 +25,13 @@
 .menuBars {
 	margin-left: auto;
 }
-@media screen and (max-width: 650px) {
+
+@media screen and (min-width: 541px) {
+	.menuBars {
+		display: none;
+	}
+}
+@media screen and (max-width: 540px) {
 	.flex {
 		flex-direction: column;
 	}

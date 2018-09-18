@@ -10,6 +10,16 @@
 	transition: all 0.2s ease-in-out;
 }
 
+@media screen and (max-width: 540px) {
+	.link {
+		width: 100%;
+		text-align: end;
+	}
+	.brand {
+		text-align: start;
+	}
+}
+
 .link:hover,
 .link:active,
 .link:focus,
@@ -19,7 +29,7 @@
 }
 
 .brand {
-	font-family: 'Source Serif Pro', serif;
+	font-family: 'Merriweather', serif;
 	font-weight: 700;
 	border-bottom: none;
 	color: var(--font-gray);

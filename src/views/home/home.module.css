@@ -1,5 +1,6 @@
+@import '../../shared/styles/colors.module.css';
 .body h2 {
-	color: #484848;
+	color: var(--font-gray);
 	font-size: 26px;
 	line-height: 44px;
 	margin-bottom: 0;
@@ -8,11 +9,11 @@
 .bodyItem p {
 	margin-bottom: 3.5rem;
 	line-height: 30px;
-	color: #484848;
+	color: var(--font-gray);
 }
 
 .body a {
-	color: #4e5a9c;
+	color: var(--blue);
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	line-height: 30px;
@@ -24,5 +25,5 @@
 .body a:active,
 .body a:focus {
 	text-decoration: none;
-	color: #864396;
+	color: var(--purple);
 }

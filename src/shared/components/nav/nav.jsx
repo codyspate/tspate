@@ -1,6 +1,5 @@
 import React from 'react';
 import NavItem from './nav-item/nav-item.jsx';
-import { Link } from 'react-router-dom';
 import css from './nav.module.css';
 import MenuBars from '../menu-bars/menu-bars.jsx';
 
@@ -23,7 +22,6 @@ class Nav extends React.Component {
 		this.setState({ menuOpen: !this.state.menuOpen });
 	};
 	render() {
-		const props = this.props;
 		if (!this.data || this.data.length < 2) return null;
 		let items = [];
 		this.data.forEach(({ text, ...props }, i) => {

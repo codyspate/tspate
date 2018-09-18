@@ -1,3 +1,4 @@
+@import './shared/styles/colors.module.css';
 .contentContainer {
 	font-family: 'Open Sans', sans-serif;
 	text-rendering: optimizeLegibility;
@@ -5,6 +6,11 @@
 	max-width: 900px;
 	margin: auto;
 	width: 90%;
+	color: var(--font-gray);
+}
+p {
+	line-height: 30px;
+	color: var(--font-gray);
 }
 
 .contentContainer h1,
@@ -13,7 +19,7 @@
 .contentContainer h4,
 .contentContainer h5,
 .contentContainer h6 {
-	font-family: 'Merriweather', serif;
+	font-family: 'Merriweather', Georgia, serif;
 }
 
 .body-item h2 {
@@ -25,4 +31,13 @@
 .body-item p {
 	margin-bottom: 3.5rem;
 	line-height: 29px;
+}
+
+.sans-font {
+	font-family: 'Open Sans', sans-serif;
+	color: var(--font-gray);
+}
+.serif-font {
+	font-family: 'Merriweather', Georgia, serif;
+	color: var(--font-gray);
 }
