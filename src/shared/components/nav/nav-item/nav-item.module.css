@@ -1,0 +1,40 @@
+@import '../../../styles/colors.module.css';
+
+.link {
+	padding: 0.4rem 0.8rem;
+	color: var(--blue);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	line-height: 30px;
+	text-decoration: none;
+	transition: all 0.2s ease-in-out;
+}
+
+.link:hover,
+.link:active,
+.link:focus,
+.link.active {
+	text-decoration: none;
+	background-color: var(--primary-light);
+}
+
+.brand {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: 700;
+	border-bottom: none;
+	color: var(--font-gray);
+	padding-left: 0;
+	font-size: 1.5rem;
+}
+
+.brand.active {
+	display: none;
+}
+
+.brand:hover,
+.brand:active,
+.brand:focus {
+	text-decoration: none;
+	color: var(--font-gray-light);
+	background-color: unset;
+}

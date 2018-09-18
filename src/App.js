@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Header } from './shared/components';
+import { Nav } from './shared/components';
 import { Home } from './views';
 import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
@@ -8,7 +8,7 @@ class App extends Component {
 		return (
 			<BrowserRouter>
 				<div className="App">
-					<Header />
+					<Nav />
 					<Route path="/" exact component={Home} />
 				</div>
 			</BrowserRouter>

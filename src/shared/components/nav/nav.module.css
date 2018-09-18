@@ -1,0 +1,50 @@
+@import '../../styles/colors.module.css';
+
+.nav {
+	background-color: var(--primary);
+	min-height: 45px;
+}
+
+.flex {
+	display: flex;
+	align-item: center;
+	height: 45px;
+	/* justify-content: space-between; */
+}
+.navItems {
+	background-color: var(--primary);
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+.mobile {
+	display: flex;
+	align-items: center;
+	min-height: 100%;
+}
+.menuBars {
+	margin-left: auto;
+}
+@media screen and (max-width: 650px) {
+	.flex {
+		flex-direction: column;
+	}
+	.navItems {
+		position: absolute;
+		width: 100%;
+		background-color: var(--primary);
+		margin-top: 45px;
+		left: 0;
+		flex-direction: column;
+		margin-left: unset;
+		align-items: flex-end;
+		max-height: 0;
+		overflow: hidden;
+		transition: all 0.2s ease-in-out;
+	}
+
+	.navItems.open {
+		max-height: 150px;
+		border-bottom: 1px solid var(--font-gray);
+	}
+}
