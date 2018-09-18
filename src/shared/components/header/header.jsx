@@ -1,7 +1,6 @@
 import React from 'react';
 import Logo from '../../static/img/ts-logo.png';
 import css from './header.module.css';
-import Nav from './components/nav/nav.jsx';
 
 const Header = ({ className }) => (
 	<div className={css.headerWrapper}>
@@ -16,7 +15,6 @@ const Header = ({ className }) => (
 				</div>
 				<img className={css.logo} alt="Tim Spate Logo" src={Logo} />
 			</div>
-			<Nav />
 		</div>
 	</div>
 );

@@ -1,5 +1,6 @@
 import React from 'react';
 import css from './home.module.css';
+import { Header } from '../../shared/components';
 
 const data = [
 	{
@@ -26,14 +27,19 @@ const data = [
 
 const Body = () => {
 	const items = data.map(item => (
-		<div className={css.bodyItem}>
+		<div key={`${item.title}-${item.company}`} className={css.bodyItem}>
 			<h2>{item.title}</h2>
 			<a href={item.url || '#'}>{item.company}</a>
 			<p>{item.message}</p>
 		</div>
 	));
 
-	return <div className={`contentContainer ${css.body}`}>{items}</div>;
+	return (
+		<div>
+			<Header />
+			<div className={`contentContainer ${css.body}`}>{items}</div>
+		</div>
+	);
 };
 
 export default Body;
