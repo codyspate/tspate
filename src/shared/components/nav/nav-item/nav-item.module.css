@@ -1,13 +1,17 @@
 @import '../../../styles/colors.module.css';
 
 .link {
-	padding: 0.4rem 0.8rem;
+	padding: 0.8rem 0.8rem;
 	color: var(--blue);
 	font-family: 'Roboto', sans-serif;
 	font-weight: 600;
 	line-height: 30px;
 	text-decoration: none;
 	transition: all 0.2s ease-in-out;
+}
+
+.link:not(.brand) {
+	font-size: 1.15rem;
 }
 
 @media screen and (max-width: 540px) {
@@ -39,7 +43,7 @@
 	border-bottom: none;
 	color: var(--font-gray);
 	padding-left: 0;
-	font-size: 1.5rem;
+	font-size: 2.2rem;
 }
 
 .brand.active {

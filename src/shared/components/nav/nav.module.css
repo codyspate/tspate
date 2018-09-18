@@ -2,13 +2,13 @@
 
 .nav {
 	background-color: var(--primary);
-	min-height: 45px;
+	min-height: 3.5rem;
 }
 
 .flex {
 	display: flex;
 	align-item: center;
-	height: 45px;
+	height: 3.5rem;
 	/* justify-content: space-between; */
 }
 .navItems {
@@ -39,7 +39,7 @@
 		position: absolute;
 		width: 100%;
 		background-color: var(--primary);
-		margin-top: 45px;
+		margin-top: 3.5rem;
 		left: 0;
 		flex-direction: column;
 		margin-left: unset;
